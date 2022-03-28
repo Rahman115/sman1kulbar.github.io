@@ -64,3 +64,11 @@
 	
 	margin-bottom: 50px;
 }
+
+.bg-foo {
+	// margin-left:50px;
+	color : rgba(255, 255, 255, 0.3);
+	background: #222222;
+  // background: -webkit-linear-gradient(#fdcc52, #fdc539);
+  // background: linear-gradient(#fdcc52, #fdc539);
+}
