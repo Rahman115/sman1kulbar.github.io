@@ -1,4 +1,13 @@
-
+section .visi {
+	position: relative;
+	padding: 150px 0;
+	
+  }
+  
+section .visi .pp {
+	padding: 150px;
+	margin: 150px;
+  }
 
 #slider {
 	position: relative;
@@ -28,7 +37,7 @@
 }
 
 #slider ul li img {
-// position: absolute;
+ /* position: absolute; */
 	width: 440px;
 	height: 500px;
 }
@@ -68,9 +77,9 @@
 }
 
 .bg-foo {
-	// margin-left:50px;
+	 /* margin-left:50px; */
 	color : rgba(255, 255, 255, 0.3);
 	background: #222222;
-  // background: -webkit-linear-gradient(#fdcc52, #fdc539);
-  // background: linear-gradient(#fdcc52, #fdc539);
+   /* background: -webkit-linear-gradient(#fdcc52, #fdc539); */
+   /* background: linear-gradient(#fdcc52, #fdc539); */
 }
