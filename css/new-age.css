@@ -151,10 +151,10 @@ header.masthead {
 section.download {
   position: relative;
   padding: 150px 0; }
-  section.download h2 {
+section.download h2 {
     font-size: 50px;
     margin-top: 0; }
-  section.download .badges .badge-link {
+section.download .badges .badge-link {
     display: block;
     margin-bottom: 25px; }
     section.download .badges .badge-link:last-child {
@@ -260,6 +260,17 @@ section.contact {
       background-color: #dd4b39; }
       section.contact ul.list-social li.social-google-plus a:hover {
         background-color: #d73925; }
+
+section .visi {
+          position: relative;
+          padding: 150px 0;
+          
+        }
+        
+section .visi .pp {
+          padding: 150px;
+          margin: 150px;
+        }
 
 footer {
   padding: 25px 0;
