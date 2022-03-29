@@ -261,20 +261,10 @@ section.contact {
       section.contact ul.list-social li.social-google-plus a:hover {
         background-color: #d73925; }
 
-section .visi {
-          position: relative;
-          padding: 150px 0;
-          
-        }
-        
-section .visi .pp {
-          padding: 150px;
-          margin: 150px;
-        }
 
 footer {
   padding: 25px 0;
-  // text-align: center;
+ /* text-align: center; */
   color: rgba(255, 255, 255, 0.3);
   background-color: #222222; }
   footer p {

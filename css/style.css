@@ -1,12 +1,12 @@
-section .visi {
+section.visi {
 	position: relative;
-	padding: 150px 0;
+	padding: 100px 0;
 	
   }
   
-section .visi .pp {
-	padding: 150px;
-	margin: 150px;
+section.visi .pp {
+	padding: 50px;
+	margin: 50px;
   }
 
 #slider {
