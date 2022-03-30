@@ -1,12 +1,31 @@
 section.visi {
 	position: relative;
-	padding: 100px 0;
+	padding: 80px 0;
 	
   }
   
-section.visi .pp {
-	padding: 50px;
-	margin: 50px;
+section.visi p {
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: bold;
+  }
+
+  section.visi h2 {
+	font-size: 22px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #421de7;
+	padding-top: 15px;
+  }
+
+  section.visi ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 5px;
+  }
+
+  section.visi ul li{
+	  padding: 7px 0;
   }
 
 #slider {
@@ -82,4 +101,45 @@ section.visi .pp {
 	background: #222222;
    /* background: -webkit-linear-gradient(#fdcc52, #fdc539); */
    /* background: linear-gradient(#fdcc52, #fdc539); */
+}
+
+p.desk-kepsek {
+	border: #dfcfcf;
+	border-style: inset;
+	text-align: justify;
+	border-radius: 10px;
+	padding: 15px;
+	margin: 0 20px 0 20px;
+}
+
+img.img-kepsek{
+	/* width: 360px; */
+	height: 220px;
+	left: 90px;
+	bottom: -60px;
+	position: relative;
+}
+
+@media (min-width:768px){
+	img.img-kepsek{
+		/* width: 360px; */
+		height: 320px;
+		left: 50px;
+		bottom: -60px;
+		position: relative;
+	}
+
+	p.desk-kepsek {
+		border: #d5eb10;
+		border-style: inset;
+		text-align: center;
+		border-radius: 30px;
+		/* padding: 15px; */
+		/* margin: 0 20px 0 20px; */
+		position: relative;
+		right: -550px;
+		bottom: -220px;
+		width: 480px;
+		/* height: 120px; */
+	}
 }
