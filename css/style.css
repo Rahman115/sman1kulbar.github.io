@@ -123,15 +123,28 @@ section.visi ul li {
 	}
 }
 
-@media (max-width:750px) {
+@media (max-width:768px) and (min-width:400px) {
 	#slider {
-		width: 540px;
-		height: 500px;
+		width: 420px;
+		height: 320px;
 	}
 
 	#slider ul li img {
 		/* position: absolute; */
-		width: 540px;
+		width: 520px;
+		height: 100%;
+	}
+}
+
+@media (max-width:400px) {
+	#slider {
+		width: 360px;
+		height: 280px;
+	}
+
+	#slider ul li img {
+		/* position: absolute; */
+		width: 360px;
 		height: 100%;
 	}
 }
@@ -293,11 +306,15 @@ div.st_img_kepsek>img.keps {
 	}
 
 
+	div.graf p.text-tag {
+		font-size: 1em;
+	}
 
 	div.graf p {
 		/* position: sticky; */
 		/* display: table;
 		vertical-align: middle; */
+		font-size: .85em;
 	}
 
 	div.st_img_kepsek {
