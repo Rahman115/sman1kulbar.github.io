@@ -34,5 +34,10 @@ git push
 2606:50c0:8003::153
 ```
 
-- www `__CNAME__` input `sman1kulbar.github.io`
-- sman1kulbar.sch.id `__SPF(txt)__` input `google-site-verification=QquoVGLdywL66xprcPBUFEbBlNkJsv97grERGUNmhVg`
+- www `__CNAME__` input 🔸 `sman1kulbar.github.io`
+- sman1kulbar.sch.id `__SPF(txt)__` input 🔸 `google-site-verification=QquoVGLdywL66xprcPBUFEbBlNkJsv97grERGUNmhVg`
+
+open Git Bash
+``
+dig EXAMPLE.COM +noall +answer -t A
+``
