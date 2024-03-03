@@ -14,6 +14,8 @@ git push
 
 ```
 
-Coba lakukan 
+### DNS Management
+
+- sman1kulbar.sch.id __A__
 
 
